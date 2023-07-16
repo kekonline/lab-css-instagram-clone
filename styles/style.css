@@ -4,7 +4,44 @@ dark blue: #06365f
 light blue: #1c5380
 */
 
+
+html{
+padding: 0px;
+margin: 0px;
+}
+
+
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-  margin: 0;
+ 
+  background-image: linear-gradient(rgba(255, 255, 255, 0.123), rgba(255, 255, 255, 0)),url('../images/bgtile.png');
+  background-repeat: repeat-x;
+
+
+
 }
+
+
+
+
+.mainSection{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  align-content: center;
+ 
+ 
+}
+
+
+footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+ 
+
+
+}
+
